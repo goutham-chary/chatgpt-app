@@ -1,0 +1,24 @@
+{
+  "sales_q1": {
+    "text": "Sales for Q1 grouped by product",
+    "table": {
+      "columns": ["Product", "Jan", "Feb", "Mar", "Total"],
+      "rows": [
+        ["Widget A", 100, 120, 130, 350],
+        ["Widget B", 90, 95, 110, 295],
+        ["Widget C", 50, 60, 70, 180]
+      ]
+    }
+  },
+  "employees_summary": {
+    "text": "Employees by department",
+    "table": {
+      "columns": ["Department", "Employees", "AvgSalary"],
+      "rows": [
+        ["Engineering", 24, 85000],
+        ["Design", 6, 72000],
+        ["Sales", 12, 63000]
+      ]
+    }
+  }
+}

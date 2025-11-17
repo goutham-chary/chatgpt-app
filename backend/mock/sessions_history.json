@@ -1,0 +1,22 @@
+{
+  "session-1": [
+    {
+      "role": "user",
+      "text": "Show sample sales data",
+      "timestamp": "2025-11-16T00:00:00.000Z"
+    },
+    {
+      "role": "assistant",
+      "text": "Here is a sales table for Q1",
+      "table": {
+        "columns": ["Product", "Jan", "Feb", "Mar"],
+        "rows": [
+          ["Widget A", 100, 120, 130],
+          ["Widget B", 90, 95, 110],
+          ["Widget C", 50, 60, 70]
+        ]
+      },
+      "timestamp": "2025-11-16T00:00:00.000Z"
+    }
+  ]
+}
